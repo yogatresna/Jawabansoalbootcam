@@ -1,0 +1,62 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Biodata Diri</title>
+</head>
+
+<body>
+
+	<div>
+		<h1>Biodata Pribadi</h1>
+		<h4>Lengkapi Data dibawah ini</h4>
+	</div>
+
+
+	<div>
+	<form method="post" action="proses.php">
+		<label for="nama">Nama &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;: </label>
+				<input type="text" id="nama"><br>
+				<label for="age">Age &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;  : </label>
+				<input type="number" id="Age"><br>
+				<label type="address">Address &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;:</label>
+				<textarea cols="30" rows="1" id="address"></textarea><br>
+
+				<label for="hb">Hobies&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp; :</label>
+				<select id="hb">
+					<option value="football"> Footbball</option>
+					<option value="vooly">Voly</option>
+					<option value="badminton">Badminton</option>
+					<option value="gym">GYM</option>
+				</select><br><br>
+				
+				<lable for="Status">is_married&nbsp; &nbsp; &nbsp; :</lable>
+				<input type="checkbox" value="Y" id="status">Married  &nbsp; &nbsp;
+				<input type="checkbox" value="Y" id="status">No Merride<br>
+
+
+				<label for="sk">List School&nbsp; &nbsp; &nbsp;:</label>
+				<select id="sk">
+					<option value="sd">Sekolah Dasar</option>
+					<option value="smp">Sekolah Menegah Pertama</option>
+					<option value="sma">Sekolah Menengah Atas</option>
+					<option value="pt">Perguruan Tinggi</option>
+				</select>&nbsp; &nbsp; &nbsp;    
+
+				<label for="in">Year_in :&nbsp;   
+				<input type="date" id="in">&nbsp; &nbsp; &nbsp; &nbsp; 
+
+				<label for="out">Year_out :&nbsp;
+				<input type="date" id="in">
+				<br><br>
+				
+
+			
+
+				<input type="submit" value="submit">
+				<input type="reset" value="reset">
+
+
+	</form>
+</div>
+</body>
+</html>

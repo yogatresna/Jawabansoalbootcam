@@ -1,0 +1,49 @@
+
+body{
+	background-color:lightblue;
+	
+}
+
+
+.container{
+	width: 100%;
+	
+}
+
+.banner1{
+	width: 50%;
+	background: grey;
+	margin:150px auto;
+	padding-left:50px;
+	padding-top: 10px;
+	padding-bottom: 30px;
+	border-radius: 20px;
+}
+
+.banner1 h3{
+	text-align: center;
+	color:white;
+	font-weight: normal;
+	font-size: 40px;
+}
+
+.banner1 table{
+	color:white;
+	margin:auto;
+}
+
+.banner1 td:hover{
+	color:white;
+	font-family: arial;
+	font-size:20px;
+	background-color:red;
+
+}
+
+.banner1 td:nth-child(odd) tr{
+	color:white;
+	
+
+}
+
+
